@@ -17,7 +17,7 @@ const Nav = () => {
           <nav className="flex space-x-4 mt-2 sm:mt-0">
             <Link to="/" className="hover:text-fuchsia-400">Home</Link>
             <Link to="/Solução" className="hover:text-fuchsia-400">Solução</Link>
-            <Link to="/Cadastrar" className="hover:text-fuchsia-400">Cadastrar</Link>
+            <Link to="/login" className="hover:text-fuchsia-400">Login</Link>
             <Link to="/Sobre" className="hover:text-fuchsia-400">Sobre</Link>
           </nav>
         </div>

@@ -6,7 +6,7 @@ const Home = () => {
     <>
          <main className="bg-white text-gray-800">
       {/* Hero Section */}
-      <section className="min-h-[80vh] flex flex-col justify-center items-center text-center px-4 bg-cover" style={{ backgroundImage: `url(${Enchente})`}}>
+      <section className="min-h-[80vh] flex flex-col justify-center items-center text-center px-4 bg-cover">
         <h1 className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">
           Proteja sua casa ou comércio antes que a água chegue.
         </h1>
