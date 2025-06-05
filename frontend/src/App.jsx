@@ -7,6 +7,7 @@ import Cadastrar from "./routes/Cadastrar"
 import Login from "./routes/Login"
 import Sobre from "./routes/Sobre"
 import Solução from "./routes/Solução"
+import Portal from './routes/Portal'
 import "./index.css"
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/Login" element={<Login/>} />
           <Route path="/Cadastrar" element={<Cadastrar/>} />
           <Route path="/Sobre" element={<Sobre/>} />
+          <Route path="/Portal" element={<Portal/>} />
         </Routes>
       <Footer/>
     </BrowserRouter>
