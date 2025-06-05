@@ -5,22 +5,24 @@ import Logo from '../assets/ilustracao-logo.jpg'
 const Nav = () => {
   return (
     <>
-        <header className='flex items-center justify-between bg-[#4b0082] h-30'>
-          <figure>
-            <img src={Logo} alt="imagem ilustrativa" className='w-30 ml-5' />
-          </figure>
-          <h1 className='text-3xl mr-335 mt-16 text-[#fff]'>
-            SafeFlow
-          </h1>
-          
-          <nav className='text-[#fff] p-7 flex gap-2'>
-              <Link to="/" className='hover:text-fuchsia-500'>Home</Link>
-              <Link to="/Solução" className='hover:text-fuchsia-500'>Solução</Link>
-              <Link to="/Cadastrar" className='hover:text-fuchsia-500'>Cadastrar</Link>
-              <Link to="/Sobre" className='hover:text-fuchsia-500'>Sobre</Link>
+      <header className="bg-[#4b0082] text-white">
+        <div className="container mx-auto flex items-center justify-between p-4 flex-wrap">
+          {/* Logo + Título */}
+          <div className="flex items-center space-x-4">
+            <img src={Logo} alt="Logo ilustrativo" className="w-16 h-auto" />
+            <h1 className="text-2xl font-bold">SafeFlow</h1>
+          </div>
+
+          {/* Navegação */}
+          <nav className="flex space-x-4 mt-2 sm:mt-0">
+            <Link to="/" className="hover:text-fuchsia-400">Home</Link>
+            <Link to="/Solução" className="hover:text-fuchsia-400">Solução</Link>
+            <Link to="/Cadastrar" className="hover:text-fuchsia-400">Cadastrar</Link>
+            <Link to="/Sobre" className="hover:text-fuchsia-400">Sobre</Link>
           </nav>
-        </header>
-        <hr />
+        </div>
+      </header>
+      <hr />
     </>
   )
 }
